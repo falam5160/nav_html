@@ -1,0 +1,103 @@
+body {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    vertical-align: middle;
+}
+
+ul,
+li {
+    list-style: none;
+}
+
+/* common css end     */
+/* main_menu part start */
+.main_menu {
+    height: 80px;
+    background: #ed107e;
+
+}
+
+.main_menu ul li {
+    float: left;
+}
+
+.main_menu ul li a {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 700;
+    font-family: cursive;
+    padding: 0 20px;
+    line-height: 60px;
+
+
+}
+
+/* main_menu part end */
+/* banner part start */
+
+.banner {
+    background: url(../images/b11.jpeg);
+    height: 800px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.banner h1 {
+    color: #fff;
+    font-size: 50px;
+    font-weight: 700;
+    font-family: serif;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.banner h2 {
+    color: yellow;
+    font-size: 30px;
+    font-weight: 500;
+    font-family: monospace;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.banner p {
+    color: yellow;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: fantasy;
+    text-transform: lowercase;
+    text-align: center;
+}
+
+.banner button {
+    color: green;
+    background: #dbf70a;
+    font-size: 20px;
+    font-weight: 700;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    transition: all linear .4s;
+    -moz- transition: all linear .4s;
+    -webkit- transition: all linear .4s;
+    -o- transition: all linear .4s;
+    -ms- transition: all linear .4s;
+}
+
+.banner button:hover {
+    color: red;
+}
+
+/* banner part end */
